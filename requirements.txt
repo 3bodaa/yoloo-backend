@@ -1,6 +1,6 @@
 fastapi
 uvicorn
 aiortc
-ultralytics
 opencv-python-headless
 numpy
+onnxruntime
