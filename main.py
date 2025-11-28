@@ -25,7 +25,7 @@ WORKFLOW_URL = "https://intern.aimicromind.com/api/v1/prediction/311643f1-0583-4
 # FASTAPI APP
 # --------------------------
 app = FastAPI()
-model = YOLO("yolov8n.pt")
+model = YOLO("yolov8x.pt")
 
 app.add_middleware(
     CORSMiddleware,
